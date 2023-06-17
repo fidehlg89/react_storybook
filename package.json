@@ -6,9 +6,11 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -16,8 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "dev": "storybook dev -p 6006 -s public",
+    "build-storybook": "storybook build -s public"
   },
   "eslintConfig": {
     "extends": [
@@ -48,18 +50,18 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.5.12",
-    "@storybook/addon-essentials": "^6.5.12",
-    "@storybook/addon-interactions": "^6.5.12",
-    "@storybook/addon-links": "^6.5.12",
-    "@storybook/builder-webpack5": "^6.5.12",
-    "@storybook/manager-webpack5": "^6.5.12",
-    "@storybook/node-logger": "^6.5.12",
-    "@storybook/preset-create-react-app": "^4.1.2",
-    "@storybook/react": "^6.5.12",
-    "@storybook/testing-library": "^0.0.13",
+    "@storybook/addon-actions": "^7.0.22",
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/node-logger": "^7.0.22",
+    "@storybook/preset-create-react-app": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-webpack5": "^7.0.22",
+    "@storybook/testing-library": "^0.1.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
+    "storybook": "^7.0.22",
     "webpack": "^5.74.0"
   }
 }
