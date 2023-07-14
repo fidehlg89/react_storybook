@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+body,
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Alata", sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 1s;
+}
+
+.content > div {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 50%;
+  height: 100%;
+  grid-area: 2 / 2 / 5 / 5;
+}
+
+.gray {
+  background-color: #333;
+}
+
+.blue {
+  background-color: #0e1424;
+}
+
+.darkgray {
+  background-color: #333f44;
+}
+
+.fadeTop {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.fadeRight {
+  opacity: 0;
+  transform: translate(10vh, 0vh);
+  transition: all 1s;
+}
+
+.fadeLeft {
+  opacity: 0;
+  transform: translate(-10vh, 0vh);
+  transition: all 1s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
