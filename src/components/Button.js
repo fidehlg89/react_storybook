@@ -8,7 +8,7 @@ function Button({ label, backgroundColor = "red", size = "md", handleClick }) {
   const style = {
     backgroundColor,
     padding: `${scale * 0.5}rem ${scale * 1}rem`,
-    border: "none",
+    border: "none"
   };
   return (
     <button onClick={handleClick} style={style}>
@@ -21,7 +21,7 @@ Button.propTypes = {
   label: PropTypes.string,
   backgroundColor: PropTypes.string,
   size: PropTypes.oneOf(["sm", "md", "lg"]),
-  handleClick: PropTypes.func,
+  handleClick: PropTypes.func
 };
 
-export default Button
+export default Button;
