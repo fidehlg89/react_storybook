@@ -1,11 +1,11 @@
-import SimpleFormValidation from "../components/FormValidation";
+import FormValidation from "../components/FormValidation";
 
 export default {
-  title: "Components/SimpleFormValidation",
-  component: SimpleFormValidation
+  title: "Components/FormValidation",
+  component: FormValidation
 };
 
-const Template = (args) => <SimpleFormValidation {...args} />;
+const Template = (args) => <FormValidation {...args} />;
 
 export const Simple = Template.bind({});
 

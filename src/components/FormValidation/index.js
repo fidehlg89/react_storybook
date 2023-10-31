@@ -1,13 +1,35 @@
-import "./FormValidation.css"
+import "./FormValidation.css";
 
-const SimpleFormValidation = (props) => {
+const FormValidation = (props) => {
   return (
-    <form>
-      <label for="choose">Would you prefer a banana or cherry?</label>
-      <input id="choose" name="i-like" required />
-      <button>Submit</button>
+    <form onSubmit={e=>e.preventDefault()}>
+      <div>
+        <label for="choose">Would you prefer a banana or a cherry?</label>
+        <input
+          type="text"
+          id="choose"
+          name="i-like"
+          required
+          minlength="6"
+          maxlength="6"
+        />
+      </div>
+      <div>
+        <label for="number">How many would you like?</label>
+        <input
+          type="number"
+          id="number"
+          name="amount"
+          defaultValue="1"
+          min="1"
+          max="10"
+        />
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
     </form>
   );
 };
 
-export default SimpleFormValidation
+export default FormValidation;
