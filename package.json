@@ -14,6 +14,8 @@
     "react-scripts": "5.0.1",
     "reactstrap": "^9.2.0",
     "remarkable": "^2.0.1",
+    "slate": "^0.101.5",
+    "slate-react": "^0.101.5",
     "styled-components": "^6.0.4",
     "web-vitals": "^2.1.4"
   },
@@ -64,6 +66,7 @@
     "@storybook/react-webpack5": "^7.5.2",
     "@storybook/testing-library": "^0.2.2",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^10.2.2",
     "prop-types": "^15.8.1",
     "storybook": "^7.5.2",
     "webpack": "^5.74.0"
