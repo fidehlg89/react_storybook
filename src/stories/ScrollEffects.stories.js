@@ -5,10 +5,6 @@ export default {
   component: ScrollEffects,
 };
 
-const Template = (args) => <ScrollEffects {...args} />
-
-export const Basic = Template.bind({});
-
-Basic.args = {
-
+export const Basic = {
+  args: {}
 };

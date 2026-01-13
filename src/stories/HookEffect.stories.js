@@ -5,9 +5,6 @@ export default {
   component: UseEffectExample
 };
 
-const Template = (args) => <UseEffectExample {...args} />;
-
-export const UseEffect = Template.bind({});
-
-UseEffect.args = {
+export const UseEffect = {
+  args: {}
 };

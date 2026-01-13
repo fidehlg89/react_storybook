@@ -5,9 +5,6 @@ export default {
     component: Timer
 }
 
-const Template = (args)=> <Timer {...args}/>
-
-export const Basic = Template.bind({});
-
-Basic.args = {
+export const Basic = {
+    args: {}
 };

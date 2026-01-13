@@ -6,12 +6,10 @@ export default {
   argTypes: { handleClick: { action: "handleClick" } }
 };
 
-const Template = (args) => <Button {...args} />;
-
-export const Red = Template.bind({});
-
-Red.args = {
-  backgroundColor: "red",
-  label: "Press me",
-  size: "md"
+export const Red = {
+  args: {
+    backgroundColor: "red",
+    label: "Press me",
+    size: "md"
+  }
 };

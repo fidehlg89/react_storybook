@@ -5,9 +5,6 @@ export default {
   component: Memorize
 };
 
-const Template = (args) => <Memorize {...args} />;
-
-export const Basic = Template.bind({});
-
-Basic.args = {
+export const Basic = {
+  args: {}
 };

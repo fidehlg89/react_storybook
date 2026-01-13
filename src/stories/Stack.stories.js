@@ -8,29 +8,30 @@ export default {
   },
 };
 
-const Template = ({ numberOfChildren, ...args }) => (
-  <Stack {...args}>
-    {[...Array(numberOfChildren).keys()].map((n) => (
-      <div
-        style={{
-          width: "50px",
-          height: "50px",
-          backgroundColor: "red",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        {n + 1}
-      </div>
-    ))}
-  </Stack>
-);
-
-export const Horizontal = Template.bind({});
-
-Horizontal.args = {
-  direction: "row",
-  spacing: 2,
-  wrap: false,
+export const Horizontal = {
+  render: ({ numberOfChildren, ...args }) => (
+    <Stack {...args}>
+      {[...Array(numberOfChildren).keys()].map((n) => (
+        <div
+          key={n}
+          style={{
+            width: "50px",
+            height: "50px",
+            backgroundColor: "red",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {n + 1}
+        </div>
+      ))}
+    </Stack>
+  ),
+  args: {
+    direction: "row",
+    spacing: 2,
+    wrap: false,
+    numberOfChildren: 4,
+  }
 };

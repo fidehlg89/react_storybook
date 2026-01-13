@@ -5,8 +5,6 @@ export default {
   component: HelmetApp,
 };
 
-const Template = (args) => <HelmetApp {...args} />;
-
-export const Basic = Template.bind({});
-
-Basic.args = {};
+export const Basic = {
+  args: {}
+};

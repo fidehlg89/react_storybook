@@ -5,11 +5,7 @@ export default {
     component: TodoApp
 }
 
-const Template = (args) => <TodoApp {...args} />
-
-export const Basic = Template.bind({});
-
-Basic.args = {
-
+export const Basic = {
+    args: {}
 };
 

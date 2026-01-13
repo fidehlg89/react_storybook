@@ -5,10 +5,8 @@ export default {
   component: InputLabel
 };
 
-const Template = (args) => <InputLabel {...args} />;
-
-export const Default = Template.bind({});
-
-Default.args = {
-  value: "Hola Mundo"
+export const Default = {
+  args: {
+    value: "Hola Mundo"
+  }
 };

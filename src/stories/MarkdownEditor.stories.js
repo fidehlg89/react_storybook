@@ -5,9 +5,6 @@ export default {
   component: MarkDownEditor
 };
 
-const Template = (args) => <MarkDownEditor {...args} />;
-
-export const Basic = Template.bind({});
-
-Basic.args = {
+export const Basic = {
+  args: {}
 };

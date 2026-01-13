@@ -8,14 +8,13 @@ export default {
 };
 
 // eslint-disable-next-line react/jsx-props-no-spreading
-const Template = (args) => <SlateEditor {...args} />;
-
-export const Default = Template.bind({});
-Default.args = {
-  initialValue: [
-    {
-      type: 'paragraph',
-      children: [{ text: 'A line of text in a paragraph.' }],
-    },
-  ],
+export const Default = {
+  args: {
+    initialValue: [
+      {
+        type: 'paragraph',
+        children: [{ text: 'A line of text.' }],
+      },
+    ],
+  }
 };

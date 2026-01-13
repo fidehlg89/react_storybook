@@ -6,8 +6,6 @@ export default {
   argTypes: {},
 };
 
-const Template = (args) => <Accordion {...args} />;
-
-export const Default = Template.bind({});
-
-Default.args = {};
+export const Default = {
+  args: {}
+};

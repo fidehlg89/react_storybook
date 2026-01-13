@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# React Storybook Component Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive collection of React components, documented and showcased using the latest **Storybook 10**. This project has been modernized to use **CSF3 (Component Story Format 3)** for all stories, ensuring better performance and a more concise developer experience.
 
-## Available Scripts
+## 🚀 Recent Updates
 
-In the project directory, you can run:
+- **Upgraded to Storybook 10.1.11**: Leverages the latest features and performance improvements.
+- **CSF3 Migration**: All 19 story files have been converted from legacy CSF2 to the modern object-based CSF3 format.
+- **Dependency Optimization**: Resolved Webpack 5 and PostCSS compilation errors.
+- **Babel & PostCSS Fixes**: Integrated missing plugins like `@babel/plugin-proposal-private-property-in-object` and `postcss-normalize` for a stable build environment.
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Core**: [React 18](https://reactjs.org/)
+- **Documentation**: [Storybook 10](https://storybook.js.org/)
+- **Styling**: [Styled Components](https://styled-components.com/), [Bootstrap 5](https://getbootstrap.com/), [Reactstrap](https://reactstrap.github.io/)
+- **Editors**: [Slate.js](https://docs.slatejs.org/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏁 Getting Started
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+yarn install
+```
 
-### `npm run build`
+### Run Storybook (Development Mode)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+yarn dev
+```
+*Note: Storybook typically runs on [http://localhost:6006](http://localhost:6006).*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Build Storybook (Production)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+yarn build-storybook
+```
 
-### `npm run eject`
+### Run React App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Components Included
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Component | Description |
+| :--- | :--- |
+| **Accordion** | Collapsible content panels. |
+| **Button** | Highly customizable interactive buttons. |
+| **Carousel** | Dynamic image/content slides. |
+| **Clock** | Real-time digital clock display. |
+| **EmailLink** | Secure and styled mailto links. |
+| **FormValidation** | Input forms with real-time validation logic. |
+| **Hello** | Classic "HelloWorld" greeting component. |
+| **Helmet** | SEO and document head management. |
+| **Hook Examples** | Demonstrations of React Hooks (e.g., `useEffect`). |
+| **InputLabel** | Reusable form input labels. |
+| **MarkdownEditor** | Rich text editing with Markdown support. |
+| **Memorize** | Performance-optimized list rendering. |
+| **ScrollEffects** | Intersection Observer based scroll animations. |
+| **Sidebar** | Responsive navigation sidebar. |
+| **Stack** | Layout utility for arranging child elements. |
+| **StateEditor** | Advanced Slate.js rich text editor. |
+| **TicTacToe** | Interactive game implementation. |
+| **Timer** | Precise countdown/up timer. |
+| **TodoApp** | Full-featured task management app. |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is private and for demonstration purposes.

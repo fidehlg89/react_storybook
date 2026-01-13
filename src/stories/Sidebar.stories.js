@@ -5,10 +5,6 @@ export default {
   component: SidebarExample,
 };
 
-const Template = (args) => <SidebarExample {...args} />
-
-export const Basic = Template.bind({});
-
-Basic.args = {
-
+export const Basic = {
+  args: {}
 };

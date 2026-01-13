@@ -1,0 +1,45 @@
+[23:44:02.404] [INFO] storybook v10.1.11
+[23:44:02.683] [DEBUG] Getting package.json info for /home/office/zprojects/github/public/react/react_storybook/package.json...
+[23:44:03.584] [DEBUG] Serving static files from [36mpublic[39m at [36m/[39m
+[23:44:03.623] [WARN] No story files found for the specified pattern: [34msrc/**/*.stories.mdx[39m
+[23:44:03.626] [INFO] Loading Webpack configuration from `node_modules/react-scripts`
+[23:44:03.626] [INFO] Removing existing JavaScript and TypeScript rules.
+[23:44:04.329] [INFO] Modifying Create React App rules.
+[23:44:04.455] [INFO] Addon-docs: using MDX3
+[23:44:04.490] [INFO] Using default Webpack5 setup
+[23:44:04.497] [INFO] Starting...
+[23:44:04.603] [DEBUG] Starting preview..
+[23:44:04.617] [INFO] Loading Webpack configuration from `node_modules/react-scripts`
+[23:44:04.617] [INFO] Removing existing JavaScript and TypeScript rules.
+[23:44:04.619] [INFO] Modifying Create React App rules.
+[23:44:04.624] [INFO] Addon-docs: using MDX3
+[23:44:04.634] [INFO] Using default Webpack5 setup
+[23:44:10.399] [WARN] [eslint] 
+src/components/Carousel/index.js
+  [1mLine 7:3:[22m  'CarouselCaption' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+src/components/Memorize/index.js
+  [1mLine 2:8:[22m  'List' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+src/components/Sidebar/index.js
+  [1mLine 58:11:[22m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 61:11:[22m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 64:11:[22m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+
+[23:44:10.404] [ERROR] Failed to build the preview
+[23:44:10.405] [WARN] Force closed preview build
+[23:44:10.406] [ERROR] [38;2;241;97;97mSB_BUILDER-WEBPACK5_0003 (WebpackCompilationError): There were problems when compiling your code with Webpack.
+Run Storybook with --debug-webpack for more information.[39m
+    at starter (file://./node_modules/@storybook/builder-webpack5/dist/index.js:799:11)
+    at starter.next (<anonymous>)
+    at Module.start (file://./node_modules/@storybook/builder-webpack5/dist/index.js:857:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async storybookDevServer (file://./node_modules/storybook/dist/core-server/index.js:6806:82)
+    at async buildOrThrow (file://./node_modules/storybook/dist/core-server/index.js:5555:12)
+    at async buildDevStandalone (file://./node_modules/storybook/dist/core-server/index.js:7208:66)
+    at async withTelemetry (file://./node_modules/storybook/dist/_node-chunks/chunk-2372JZ52.js:209:12)
+    at async dev (file://./node_modules/storybook/dist/bin/core.js:2734:3)
+    at async _Command.<anonymous> (file://./node_modules/storybook/dist/bin/core.js:2801:92)
+[23:44:10.407] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.

@@ -5,10 +5,6 @@ export default {
   component: EmailLink
 };
 
-const Template = (args) => <EmailLink {...args} />;
-
-export const Basic = Template.bind({});
-
-Basic.args = {
-
+export const Basic = {
+  args: {}
 };

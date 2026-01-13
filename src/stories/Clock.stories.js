@@ -5,10 +5,6 @@ export default {
   component: Clock,
 };
 
-const Template = (args) => <Clock {...args} />;
-
-export const single = Template.bind({});
-
-single.args = {
-
+export const single = {
+  args: {}
 };

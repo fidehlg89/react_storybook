@@ -5,9 +5,6 @@ export default {
     component: Game
 }
 
-const Template = (args)=> <Game {...args}/>
-
-export const TicTacToe = Template.bind({});
-
-TicTacToe.args = {
+export const TicTacToe = {
+    args: {}
 };

@@ -5,10 +5,6 @@ export default {
   component: FormValidation
 };
 
-const Template = (args) => <FormValidation {...args} />;
-
-export const Simple = Template.bind({});
-
-Simple.args = {
-
+export const Simple = {
+  args: {}
 };

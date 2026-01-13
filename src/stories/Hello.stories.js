@@ -5,10 +5,8 @@ export default {
   component: HelloMessage
 };
 
-const Template = (args) => <HelloMessage {...args} />;
-
-export const Basic = Template.bind({});
-
-Basic.args = {
-  color: "orange"
+export const Basic = {
+  args: {
+    color: "orange"
+  }
 };

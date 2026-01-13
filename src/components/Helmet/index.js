@@ -12,3 +12,5 @@ const HelmetApp = () => {
     </div>
   );
 };
+
+export default HelmetApp;
